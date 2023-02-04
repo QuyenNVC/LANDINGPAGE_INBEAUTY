@@ -1,0 +1,51 @@
+.review {
+  padding: 23px 0;
+  .review__items {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .img__wrapper {
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 3px;
+    margin: auto;
+    background-image: linear-gradient(to right, red, yellow);
+    img {
+      width: 100%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+    }
+  }
+  .review__content {
+    p {
+      margin-top: 5px;
+      margin-bottom: 15px;
+      font-size: 10px;
+      font-family: "Open Sans", sans-serif;
+      &:first-child {
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      &:last-child {
+        width: 60%;
+        margin-left: auto;
+      }
+    }
+  }
+  .review__bottom {
+    margin-top: 18px;
+    h3 {
+      color: #cb7600;
+      font-size: 16px;
+      font-weight: 600;
+      &:first-child {
+        margin-bottom: 6px;
+        color: #000;
+        font-style: italic;
+        font-weight: 300;
+      }
+    }
+  }
+}

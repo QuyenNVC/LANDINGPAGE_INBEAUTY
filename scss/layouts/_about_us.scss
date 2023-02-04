@@ -1,0 +1,20 @@
+.about_us {
+  padding-top: 46px;
+  padding-bottom: 21px;
+  text-align: center;
+  .about_us__wrapper {
+    margin: auto;
+    h2 {
+      text-transform: uppercase;
+      color: $color-title;
+      font-size: 23px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 14px;
+      color: #000;
+      max-width: 660px;
+      font-family: "Open Sans", sans-serif;
+    }
+  }
+}

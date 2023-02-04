@@ -1,0 +1,14 @@
+$mb: 480px;
+$md: 768px;
+@mixin responsive($width) {
+  @if $width = SM {
+    @media (max-width: $md) {
+      @content;
+    }
+  }
+  @if $width = MB {
+    @media (max-width: $mb) {
+      @content;
+    }
+  }
+}

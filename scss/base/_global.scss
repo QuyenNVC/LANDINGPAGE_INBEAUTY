@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Font Awesome 5 Bold";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(../vendor/fontawesome-free-5.15.1-web/webfonts/fa-solid-900.eot);
+  src: url(../vendor/fontawesome-free-5.15.1-web/webfonts/fa-solid-900.eot?#iefix)
+      format("embedded-opentype"),
+    url(../vendor/fontawesome-free-5.15.1-web/webfonts/fa-solid-900.woff2)
+      format("woff2"),
+    url(../vendor/fontawesome-free-5.15.1-web/webfonts/fa-solid-900.woff)
+      format("woff"),
+    url(../vendor/fontawesome-free-5.15.1-web/webfonts/fa-solid-900.ttf)
+      format("truetype"),
+    url(../vendor/fontawesome-free-5.15.1-web/webfonts/fa-solid-900.svg#fontawesome)
+      format("svg");
+}
+
+.pt120 {
+  padding-top: 120px;
+}
+
+.section__title {
+  .title {
+    color: $color-title;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    @media (max-width: 480px) {
+      font-size: 16px;
+    }
+  }
+  img {
+    width: 172px;
+    height: 24px;
+    margin-bottom: 32px;
+  }
+}

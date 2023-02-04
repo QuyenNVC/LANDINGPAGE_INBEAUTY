@@ -1,0 +1,22 @@
+.why {
+  padding: 50px 0;
+  .why__items {
+    text-align: center;
+    img {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+    }
+    h3 {
+      font-size: 14px;
+      color: $color-title;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+    p {
+      color: #000;
+      font-family: "Open Sans", sans-serif;
+      font-size: 12px;
+    }
+  }
+}
